@@ -46,6 +46,7 @@ function setupSidebarInteractions() {
                 // Reset active state first
                 childLink.classList.remove('active-sidebar-link');
 
+                //alert(childLink.href + "&" + currentPath)
                 if (childLink.href.includes(currentPath) && currentPath !== "") {
                     childLink.classList.add('active-sidebar-link');
                     shouldParentExpand = true; // Mark parent to be expanded
@@ -55,7 +56,7 @@ function setupSidebarInteractions() {
 
         // Set active state for parent links and expand if necessary
         // A parent link is active if its href matches the currentPath OR if one of its children is active
-        //alert(newLink.href)
+        //alert(newLink.href + "&" + currentPath)
         if (newLink.href.includes(currentPath) && currentPath !== "") {
             newLink.classList.add('active-sidebar-link');
             // If parent itself is the active page, it should also expand if it has children
