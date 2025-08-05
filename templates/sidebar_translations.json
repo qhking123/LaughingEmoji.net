@@ -41,7 +41,12 @@
         "loveLetter": "Love Letter Emoji",
         "saturn": "Saturn Emoji",
         "yam": "Yam Emoji",
-        "worm": "Worm Emoji",
+        "worm": "Worm Emoji",  
+        "birthday": "Birthday Emoji",      
+        "dog": "Dog Emoji",
+        "droolingEmoji": "Drooling Emoji",
+        "highFive": "High Five Emoji",
+        "rizz": "Rizz Emoji",
 
         "copiedToClipboard": "Copied to clipboard!",
         "otherCollectionsTitle": "Other Emoji Collections"
@@ -89,6 +94,11 @@
         "saturn": "土星表情符号",
         "yam": "山药表情符号",
         "worm": "蠕虫表情符号",
+        "birthday": "生日表情符号",    
+        "dog": "狗表情符号",
+        "droolingEmoji": "流口水表情符号",
+        "highFive": "击掌表情符号",
+        "rizz": "Rizz表情符",
         
         "copiedToClipboard": "已复制到剪贴板！",
         "otherCollectionsTitle": "其他表情符号合集"
