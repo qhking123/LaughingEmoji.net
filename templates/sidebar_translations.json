@@ -27,6 +27,14 @@
         "warning": "Warning",
         "arrow": "Arrow",
         "flags": "Flags",
+        "animalEmojis": "Animal Emojis 🐾",
+        "foodEmojis": "Food Emojis 🍎",
+        "heartEmojis": "Heart Emojis ❤️",
+        "natureEmojis": "Nature Emojis 🌳",
+        "smileysPeopleEmojis": "Smileys & People Emojis 😊",
+        "travelPlacesEmojis": "Travel & Places Emojis ✈️",
+        "objectsEmojis": "Objects Emojis 💡",
+        "symbolsEmojis": "Symbols Emojis ⚛️",
         "symbolicFlag": "Symbolic Flag",
         "countryRegionFlag": "Country & Region Flag",
         "aboutUsSidebar": "About Us",
@@ -52,9 +60,18 @@
         "rocket": "Rocket Emoji",
         "rose": "Rose Emoji",
         "sleep": "Sleep Emoji",
+        "football": "Football Emoji",
+        "goat": "Goat Emoji",        
+        "muscle": "Muscle Emoji",
+        "paintbrush": "Paintbrush Emoji",
+        "whyyy": "Whyyy Emoji",
 
         "copiedToClipboard": "Copied to clipboard!",
-        "otherCollectionsTitle": "Other Emoji Collections"
+        "otherCollectionsTitle": "Other Emoji Collections",
+        "about": "About",
+        "contact": "Contact Us",
+        "clickToCopy": "Click any emoji to copy to clipboard!",
+        "home": "Home"
     },
     "zh": {
         "emojisSidebarHeader": "表情符号",
@@ -84,6 +101,14 @@
         "warning": "警告",
         "arrow": "箭头",
         "flags": "旗帜",
+        "animalEmojis": "动物表情符号 🐾",
+        "foodEmojis": "食物表情符号 🍎",
+        "heartEmojis": "心形表情符号 ❤️",
+        "natureEmojis": "自然表情符号 🌳",
+        "smileysPeopleEmojis": "笑脸与人物表情符号 😊",
+        "travelPlacesEmojis": "旅行与地点表情符号 ✈️",
+        "objectsEmojis": "物品表情符号 💡",
+        "symbolsEmojis": "符号表情符号 ⚛️",
         "symbolicFlag": "象征旗帜",
         "countryRegionFlag": "国家和地区旗帜",
         "aboutUsSidebar": "关于我们",
@@ -109,8 +134,17 @@
         "rocket": "火箭表情符号",
         "rose": "玫瑰表情符号",
         "sleep": "睡眠表情符",
+        "football": "足球表情符",
+        "goat": "山羊表情符",
+        "muscle": "肌肉表情符号", 
+        "paintbrush": "画笔表情符",
+        "whyyy": "Whyyy表情符",
         
         "copiedToClipboard": "已复制到剪贴板！",
-        "otherCollectionsTitle": "其他表情符号合集"
+        "otherCollectionsTitle": "其他表情符号合集",
+        "about": "关于我们",
+        "contact": "联系我们",
+        "clickToCopy": "点击任意表情符号即可复制到剪贴板！",
+        "home": "首页"
     }
 }
