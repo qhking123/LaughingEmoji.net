@@ -1,7 +1,7 @@
 // Function to handle sidebar toggle and active state
 function setupSidebarInteractions() {
     const parentLinks = document.querySelectorAll('.sidebar-nav .parent-link');
-    const currentPath = window.location.pathname.split('/').pop(); // e.g., "index.html" or "flower.html"
+    const currentPath = window.location.pathname.split('/').pop().split('.')[0]; // e.g., "index.html" or "flower.html"，改成”index“或”flower“
 
     parentLinks.forEach(link => {
         const hasChildren = link.getAttribute('data-has-children') === 'true';
@@ -47,7 +47,9 @@ function setupSidebarInteractions() {
                 childLink.classList.remove('active-sidebar-link');
 
                 //alert(childLink.href + "&" + currentPath)
-                if (childLink.href.includes(currentPath) && currentPath !== "") {
+                if (childLink.href.includes(currentPath) && currentPath !== "") 
+                //if (currentPath.includes(childLink.href) && currentPath !== "") 
+                {
                     childLink.classList.add('active-sidebar-link');
                     shouldParentExpand = true; // Mark parent to be expanded
                 }
@@ -57,12 +59,14 @@ function setupSidebarInteractions() {
         // Set active state for parent links and expand if necessary
         // A parent link is active if its href matches the currentPath OR if one of its children is active
         //alert(newLink.href + "&" + currentPath)
-        if (newLink.href.includes(currentPath) && currentPath !== "") {
-            newLink.classList.add('active-sidebar-link');
-            // If parent itself is the active page, it should also expand if it has children
-            if (hasChildren) {
-                shouldParentExpand = true;
-            }
+        if (newLink.href.includes(currentPath) && currentPath !== "") 
+        //if (currentPath.includes(newLink.href) && currentPath !== "") 
+            {
+                newLink.classList.add('active-sidebar-link');
+                // If parent itself is the active page, it should also expand if it has children
+                if (hasChildren) {
+                    shouldParentExpand = true;
+                }
         }
 
         if (shouldParentExpand) {
